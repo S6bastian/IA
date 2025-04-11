@@ -1,4 +1,4 @@
-// OpenGL + C++ Graph Interaction mejorado con alerta de conflicto de color
+
 #include <GL/glut.h>
 #include <bits/stdc++.h>
 using namespace std;
@@ -58,7 +58,7 @@ struct Graph {
 			}
 			if (!assigned) {
 				cout << "??  Nodo " << current << " no pudo ser coloreado. Conflicto de colores.\n";
-				colors[current] = 3; // sin color válido
+				colors[current] = 3; // sin color vÃ¡lido
 			}
 		}
 	}
